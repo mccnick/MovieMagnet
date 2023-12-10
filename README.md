@@ -33,7 +33,7 @@ Movie Magnet is an Android application dedicated to movie enthusiasts who enjoy 
 
 ## Documentation
 
-- Additional documentation, including system architecture diagrams and UI/UX design sketches, can be found in the `docs` directory within the GitHub repository.
+- Additional documentation, including system architecture diagrams and UI/UX design sketches, can be found in the `Documents` directory within the GitHub repository.
 
 ## Demo
 
