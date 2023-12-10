@@ -42,7 +42,3 @@ Movie Magnet is an Android application dedicated to movie enthusiasts who enjoy 
 ## Awards
 
 - **Best Coder & Best Manager**: Recognized by the Computer Science department professor Simanta Mitra and my TA the entire semester, for outstanding contributions as a backend developer and team manager.
-
----
-
-Remember to replace the placeholders like `link-to-demo-video` with actual links to your content. This README template follows a similar structure to the SwipeHire example, providing a clear and professional overview of the Movie Magnet app, its features, and technical details.
