@@ -5,7 +5,7 @@ Movie Magnet is an Android application dedicated to movie enthusiasts who enjoy 
 ## Features
 
 - **Theater Searching**: Allows users to find theaters and showtimes, streamlining the process of planning a movie night out.
-- **Age Groups & Suggestions**: Curates movie suggestions based on age group preferences, enhancing personalization.
+- **Age Groups & Suggestions**: Curates movie suggestions based on age group preferences, enhancing personalization. This also restricts user's age group & chat with logic based on their date of birth.
 - **Movie Reviews**: Users can read and write reviews, fostering a community of movie lovers.
 - **Real-time Interaction**: Implemented WebSocket technology for real-time user interactions within the app.
 - **RESTful APIs**: Utilized REST APIs for efficient backend data handling and integration.
