@@ -5,7 +5,7 @@ Movie Magnet is an Android application dedicated to movie enthusiasts who enjoy 
 ## Demo
 
 - A demonstration video of Movie Magnet is available for viewing. It showcases the app's capabilities and user interface.
-- [Watch the demo video here (make sure to select 1080p!)](https://drive.google.com/file/d/1y7Od1rRmp6tVQmu3a-cz0oVwLy3YiD5V/view?usp=drive_link).
+- [Watch the demo video here](https://drive.google.com/file/d/1y7Od1rRmp6tVQmu3a-cz0oVwLy3YiD5V/view?usp=drive_link). (make sure to select 1080p!)
 
 ## Awards
 
