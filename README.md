@@ -20,6 +20,7 @@ Movie Magnet is an Android application dedicated to movie enthusiasts who enjoy 
 - **Movie Reviews**: Users can read and write reviews, fostering a community of movie lovers.
 - **Real-time Interaction**: Implemented WebSocket technology for real-time user interactions within the app.
 - **RESTful APIs**: Utilized REST APIs for efficient backend data handling and integration.
+- **Admin Features**: The app features in-depth Admin features, such as muting/unmuting users in chat, resetting their encrypted password, deleting a user's account and having their own websocket help-chat for all users to get help. 
 
 ## Tech Stack
 
@@ -32,6 +33,7 @@ Movie Magnet is an Android application dedicated to movie enthusiasts who enjoy 
 ### Real-time Features:
 
 - **WebSockets**: Incorporated WebSocket technology to enable live interactions, such as chat and notifications.
+- **Different Chats** Every user is assigned a specific age group upon registering. This age group corresponds to movies that can be suggested/shown to them based on their age (PG/PG13/R). These age groups are also ONLY able to chat with each other to prevent any shenanigans.
 
 ### Testing:
 
