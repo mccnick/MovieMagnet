@@ -41,7 +41,7 @@ Movie Magnet is an Android application dedicated to movie enthusiasts who enjoy 
 
 ## Awards
 
-- **Best Coder & Best Manager**: Recognized by the Computer Science department professor for outstanding contributions as a backend developer and team manager.
+- **Best Coder & Best Manager**: Recognized by the Computer Science department professor Simanta Mitra and my TA the entire semester, for outstanding contributions as a backend developer and team manager.
 
 ---
 
