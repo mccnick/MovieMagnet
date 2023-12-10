@@ -33,7 +33,7 @@ Movie Magnet is an Android application dedicated to movie enthusiasts who enjoy 
 ### Real-time Features:
 
 - **WebSockets**: Incorporated WebSocket technology to enable live interactions, such as chat and notifications.
-- **Different Chats** Every user is assigned a specific age group upon registering. This age group corresponds to movies that can be suggested/shown to them based on their age (PG/PG13/R). These age groups are also ONLY able to chat with each other to prevent any shenanigans.
+- **Different Chats**: Every user is assigned a specific age group upon registering. This age group corresponds to movies that can be suggested/shown to them based on their age (PG/PG13/R). These age groups are also ONLY able to chat with each other to prevent any shenanigans.
 
 ### Testing:
 
