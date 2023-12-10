@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MoviesTab.MoviesActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="210dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Name of Movie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button10" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/searchBtn"
+        android:layout_width="47dp"
+        android:layout_height="45dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".7"
+        app:layout_constraintStart_toStartOf="@id/searchBar"
+        app:layout_constraintTop_toBottomOf="@id/button10"
+        app:srcCompat="@drawable/car_ui_icon_search" />
+
+    <ImageView
+        android:id="@+id/settingsButton"
+        android:layout_width="126dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="687dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="1147dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/settingss" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="166dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="364dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="782dp"
+        android:backgroundTint="#9A9B9C"
+        android:text="Social"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="166dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="782dp"
+        android:backgroundTint="#9A9B9C"
+        android:text="Theaters"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="166dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="354dp"
+        android:layout_marginBottom="782dp"
+        android:backgroundTint="#606060"
+        android:text="Movies"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="166dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="474dp"
+        android:layout_marginBottom="845dp"
+        android:backgroundTint="#9A9B9C"
+        android:text="Home"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RVMovies"
+        android:layout_width="409dp"
+        android:layout_height="585dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchBar"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

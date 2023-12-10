@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="409dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp" >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--textView for the movie title-->
+        <TextView
+            android:id="@+id/MovieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Title"
+            app:fontFamily="@font/smash_tv"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <!--textView for movie genre-->
+        <TextView
+            android:id="@+id/MovieGenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Genre" />
+
+        <!--textView for movie rating-->
+        <TextView
+            android:id="@+id/MovieRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Rating" />
+
+        <!--textView for movie runtime-->
+        <TextView
+            android:id="@+id/MovieRuntime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Runtime" />
+
+        <!--textView for a movie times-->
+        <TextView
+            android:id="@+id/MovieTimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Times"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

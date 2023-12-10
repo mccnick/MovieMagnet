@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MoviesTab.MoviesActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Name of Movie"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movieAtTheatersTV" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/searchBtn"
+        android:layout_width="47dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#A9A3FF"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movieAtTheatersTV"
+        app:srcCompat="@drawable/car_ui_icon_search" />
+
+    <ImageView
+        android:id="@+id/settingsBtn"
+        android:layout_width="126dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="687dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="1147dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/settingss" />
+
+    <Button
+        android:id="@+id/socialBtn"
+        android:layout_width="166dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="364dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="782dp"
+        android:backgroundTint="#8D93FF"
+        android:fontFamily="@font/smash_tv"
+        android:text="Social"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/reviewBtn"
+        android:layout_width="166dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="273dp"
+        android:backgroundTint="#A9A3FF"
+        android:fontFamily="@font/smash_tv"
+        android:text="Review"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RVMovies" />
+
+    <Button
+        android:id="@+id/theatersBtn"
+        android:layout_width="166dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="782dp"
+        android:backgroundTint="#8D93FF"
+        android:fontFamily="@font/smash_tv"
+        android:text="Theaters"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/movieBtn"
+        android:layout_width="166dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="354dp"
+        android:layout_marginBottom="782dp"
+        android:backgroundTint="#6378E6"
+        android:fontFamily="@font/smash_tv"
+        android:text="Movies"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="166dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="474dp"
+        android:layout_marginBottom="845dp"
+        android:backgroundTint="#8D93FF"
+        android:fontFamily="@font/smash_tv"
+        android:text="Home"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RVMovies"
+        android:layout_width="395dp"
+        android:layout_height="429dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchBar"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/movieAtTheatersTV"
+        android:layout_width="484dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Use the search bar below to search for movies that are currently in theaters and enter your search by clicking the search button beside it, or just click the search button to view all the movies available to you in theaters."
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homeBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.example.myapplication"},{"l":"HelpChatWebSocket"},{"l":"MoviesTab"},{"l":"SettingsTab"},{"l":"SocialTab"},{"l":"TheatersTab"}];updateSearchResults();

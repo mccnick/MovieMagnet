@@ -1,0 +1,21 @@
+<!-- res/layout/custom_toast.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_login_layout"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#424242"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/toast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:text="Custom Toast Message"
+        app:fontFamily="@font/smash_tv"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

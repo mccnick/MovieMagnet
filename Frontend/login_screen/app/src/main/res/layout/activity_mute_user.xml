@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_settings"
+    android:gravity="center_horizontal">
+
+
+    <!-- Button to fetch users and show the Spinner -->
+
+    <!-- Spinner for selecting users, initially hidden -->
+
+    <Button
+        android:id="@+id/buttonSelectUsers"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="635dp"
+        android:backgroundTint="#2C2C2C"
+        android:text="Select Users"
+        android:textSize="40sp"
+        app:fontFamily="@font/smash_tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerUsers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSelectUsers"
+        app:layout_constraintStart_toStartOf="@+id/buttonSelectUsers"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSelectUsers" />
+
+    <!-- Button to mute the selected user -->
+
+    <Button
+        android:id="@+id/buttonUnMuteUser"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="486dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="489dp"
+        android:backgroundTint="#2C2C2C"
+        android:text="UNMUTE USER"
+        android:textSize="40sp"
+        app:fontFamily="@font/smash_tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMuteUser"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="348dp"
+        android:backgroundTint="#2C2C2C"
+        android:text="Mute User"
+        android:textSize="40sp"
+        app:fontFamily="@font/smash_tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerUsers" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

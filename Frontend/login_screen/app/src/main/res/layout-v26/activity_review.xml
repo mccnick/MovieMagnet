@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- EditText for the user to input the movie name -->
+    <EditText
+        android:id="@+id/editTextMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_gray"
+        android:hint="Enter movie name"
+        android:font="@font/smash_tv"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <!-- Button for selecting the movie -->
+    <Button
+        android:id="@+id/buttonSelectMovie"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="60sp"
+        android:backgroundTint="@color/black"
+        android:text="SELECT MOVIE"
+        android:fontFamily="@font/smash_tv"/>
+
+    <!-- Space for layout -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+    <!-- Expanded EditText for the user to input their review -->
+    <EditText
+        android:id="@+id/editTextReview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:backgroundTint="@color/light_gray"
+        android:hint="@string/enter_your_review"
+        android:font="@font/smash_tv"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:minHeight="200dp" />
+
+    <!-- Button for submitting the review -->
+    <Button
+        android:id="@+id/buttonSendReview"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/black"
+        android:font="@font/smash_tv"
+        android:textSize="60sp"
+        android:text="SEND REVIEW"
+        android:fontFamily="@font/smash_tv"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Space for layout -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+</LinearLayout>

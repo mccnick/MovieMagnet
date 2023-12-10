@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk tools:overrideLibrary="com.android.car.ui" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name="SettingsTab.ViewReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name="SettingsTab.MuteUserActivity"
+            android:exported="false" />
+        <activity
+            android:name="TheatersTab.TheaterSearch"
+            android:exported="false" />
+        <activity
+            android:name="SettingsTab.AdminChangeEmail"
+            android:exported="false" />
+        <activity
+            android:name="SettingsTab.AdminChangeUser"
+            android:exported="false" />
+        <activity
+            android:name="SettingsTab.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name="SettingsTab.ChangeEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name="SettingsTab.ChangeUserActivity"
+            android:exported="false" />
+        <activity
+            android:name="SocialTab.GroupChat"
+            android:exported="false" />
+        <activity
+            android:name="SocialTab.SocialActivity"
+            android:exported="false" /> <!-- The following activities are exported for external access -->
+        <activity
+            android:name="TheatersTab.TheatersActivity"
+            android:exported="false" />
+        <activity
+            android:name="HelpChatWebSocket.HelpChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="HelpChatWebSocket.HelpChatManager"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="SettingsTab.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="MoviesTab.MoviesActivity"
+            android:exported="false" />
+        <activity
+            android:name="MoviesTab.ReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="MoviesTab.TheatersAvailable"
+            android:exported="false" />
+        <activity
+            android:name="SettingsTab.AccountInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" /> <!-- RegistrationActivity and MainActivity are your app's entry points -->
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

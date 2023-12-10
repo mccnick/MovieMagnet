@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="registerButton" type="id" />
+    <item name="user" type="id" />
+    <item name="birthday" type="id" />
+    <item name="scrollView" type="id" />
+    <item name="birthDateEditText" type="id" />
+    <item name="sendBtn" type="id" />
+    <item name="pickImgBtn" type="id" />
+    <item name="sentTxt" type="id" />
+    <item name="password" type="id" />
+    <item name="loginButton" type="id" />
+    <item name="enterBtn" type="id" />
+    <item name="editText" type="id" />
+    <item name="theatersBtn" type="id" />
+    <item name="email" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="textView1" type="id" />
+    <item name="textView2" type="id" />
+    <item name="textView3" type="id" />
+    <item name="bt1" type="id" />
+    <item name="custom_toast" type="id" />
+    <item name="custom_toast_message" type="id" />
+    <item name="settingsButton" type="id" />
+    <item name="button4" type="id" />
+    <item name="button9" type="id" />
+    <item name="button8" type="id" />
+    <item name="button10" type="id" />
+    <item name="button11" type="id" />
+    <item name="connectButton" type="id" />
+    <item name="deleteButton" type="id" />
+    <item name="changePasswordButton" type="id" />
+    <item name="listUsersButton" type="id" />
+    <item name="changeUserbtn" type="id" />
+    <item name="changePassbtn" type="id" />
+    <item name="userEmailEditText" type="id" />
+    <item name="stringEntry" type="id" />
+    <item name="submit2" type="id" />
+    <item name="buttonSelectEmails" type="id" />
+</resources>

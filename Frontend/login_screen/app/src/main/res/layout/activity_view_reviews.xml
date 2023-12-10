@@ -1,0 +1,51 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="SettingsTab.ViewReviewsActivity">
+
+    <EditText
+        android:id="@+id/editTextMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="642dp"
+        android:hint="Enter Movie Name"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonReviewsByMovie"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="434dp"
+        android:layout_marginBottom="541dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/smash_tv"
+        android:text="REVIEWS BY MOVIE"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerMovieReviews"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonReviewsByMovie" />
+
+    <!-- Other UI components -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="SettingsTab.AdminChangeEmail">
+
+    <Button
+        android:id="@+id/buttonSelectEmails"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="635dp"
+        android:backgroundTint="#2C2C2C"
+        android:text="Select Users"
+        android:textSize="40sp"
+        app:fontFamily="@font/smash_tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerEmails"
+        android:layout_width="173dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSelectEmails"
+        app:layout_constraintStart_toStartOf="@+id/buttonSelectEmails"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSelectEmails" />
+
+    <EditText
+        android:id="@+id/newEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="523dp"
+        android:layout_marginBottom="481dp"
+        android:hint="New Email"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/changeEmailButton"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="383dp"
+        android:backgroundTint="@color/black"
+        android:text="CHANGE EMAIL"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newEmailEditText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Movie Magnet</string>
+    <string name="hint_password" />
+    <string name="enter_your_review">Enter your review...</string>
+    <string name="send_review">SEND REVIEW</string>
+</resources>
